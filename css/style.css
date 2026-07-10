@@ -70,8 +70,41 @@ img {
 
 
 /* banner part start */
-#banner{
+#banner {
     background: url(../images/banner.jpg) center/cover no-repeat;
-    padding: 100px 0;
+    padding: 136px 0 79px ;
 }
+
+.banner_main {
+    width: 959px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.banner_main h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: mixed;
+    padding-bottom: 16px;
+}
+
+.banner_main p {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 0 80px;
+    margin-bottom: 274px;
+}
+.banner_main button{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 25px 62px;
+    background: #1D4ED8;
+    border-radius: 10px;
+    border: none;
+    color:white;
+}
+
 /* banner part end */
