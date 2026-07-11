@@ -28,7 +28,6 @@ img {
     padding: 26px 0;
     background-color: #fff;
 }
-
 .nav_logo {
     width: 20%;
 }
@@ -36,7 +35,6 @@ img {
 .nav_menu {
     width: 60%;
 }
-
 .nav_menu ul {
     display: flex;
     align-items: center;
@@ -73,6 +71,7 @@ img {
 #banner {
     background: url(../images/banner.jpg) center/cover no-repeat;
     padding: 136px 0 79px ;
+    position: relative;
 }
 
 .banner_main {
@@ -80,12 +79,14 @@ img {
     margin: 0 auto;
     text-align: center;
     color: white;
+    position: relative;
+    z-index: 2;
 }
 
 .banner_main h1 {
     font-family: "Inter", sans-serif;
     font-size: 80px;
-    font-weight: mixed;
+    font-weight: bold;
     padding-bottom: 16px;
 }
 
@@ -106,5 +107,68 @@ img {
     border: none;
     color:white;
 }
-
+.ovarly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.395);
+    z-index: 1;
+}
 /* banner part end */
+
+
+/* speaker part start */
+
+#speaker{
+    margin: 80px 0 100px;
+}
+.speaker_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px 0;
+}
+.speaker_main h2{
+    font-family: "Inter", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    color: #000102;
+    text-align: center;
+    padding-bottom: 56px;
+}
+.aiml{
+    background: #E5E7EB;
+    border-radius: 8px;
+    width: 48%;
+}
+.aiml_padding{
+    padding: 24px 0 24px 24px;
+}
+.aiml_padding h5{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1B2A;
+    padding: 8px 0;
+}
+.aiml_padding h6{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #1D4ED8;
+    
+}
+.aiml_padding p{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #575757;
+    
+}
+.aiml img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+/* speaker part end */
