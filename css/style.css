@@ -28,6 +28,7 @@ img {
     padding: 26px 0;
     background-color: #fff;
 }
+
 .nav_logo {
     width: 20%;
 }
@@ -35,6 +36,7 @@ img {
 .nav_menu {
     width: 60%;
 }
+
 .nav_menu ul {
     display: flex;
     align-items: center;
@@ -70,7 +72,7 @@ img {
 /* banner part start */
 #banner {
     background: url(../images/banner.jpg) center/cover no-repeat;
-    padding: 136px 0 79px ;
+    padding: 136px 0 79px;
     position: relative;
 }
 
@@ -97,7 +99,8 @@ img {
     padding: 0 80px;
     margin-bottom: 274px;
 }
-.banner_main button{
+
+.banner_main button {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -105,9 +108,10 @@ img {
     background: #1D4ED8;
     border-radius: 10px;
     border: none;
-    color:white;
+    color: white;
 }
-.ovarly{
+
+.ovarly {
     position: absolute;
     top: 0;
     left: 0;
@@ -116,21 +120,24 @@ img {
     background: rgba(0, 0, 0, 0.395);
     z-index: 1;
 }
+
 /* banner part end */
 
 
 /* speaker part start */
 
-#speaker{
+#speaker {
     margin: 80px 0 100px;
 }
-.speaker_head{
+
+.speaker_head {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 32px 0;
 }
-.speaker_main h2{
+
+.speaker_main h2 {
     font-family: "Inter", sans-serif;
     font-size: 56px;
     font-weight: bold;
@@ -138,37 +145,264 @@ img {
     text-align: center;
     padding-bottom: 56px;
 }
-.aiml{
+
+.aiml {
     background: #E5E7EB;
     border-radius: 8px;
     width: 48%;
 }
-.aiml_padding{
+
+.aiml_padding {
     padding: 24px 0 24px 24px;
 }
-.aiml_padding h5{
+
+.aiml_padding h5 {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #0D1B2A;
     padding: 8px 0;
 }
-.aiml_padding h6{
+
+.aiml_padding h6 {
     font-family: "Inter", sans-serif;
     font-size: 12px;
     font-weight: 600;
     color: #1D4ED8;
-    
+
 }
-.aiml_padding p{
+.aiml_padding p {
     font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: #575757;
-    
+
 }
-.aiml img{
+
+.aiml img {
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
+
 /* speaker part end */
+
+/* secure part start */
+
+.secure_main h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.secure_main p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #575757;
+    text-align: center;
+    padding-bottom: 48px;
+}
+.secure_head{
+    display: flex; 
+    align-items: center;
+    gap: 0 24px;
+}
+.secure_card{
+    width: 370px;
+    background: #F8F9FB;
+    border-radius: 10px;
+    border: 1px solid #88888825;
+    padding: 32px;
+}
+.secure_card h6{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+    padding-bottom: 8px;
+}
+.secure_card h3{
+    font-family: "Inter", sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+    padding-bottom: 4px;
+}
+
+
+.secure_card p{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #888888;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 31px;
+}
+.secure_card ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    padding-bottom: 10px;
+    position: relative;
+}
+.secure_card ul li::after{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -13px;
+    background: #1D4ED8;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+.secure_card button{
+    padding: 11px 106px;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+     font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2563EB;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.secure_card1{
+    width: 370px;
+    background: #0D1B2A;
+    border-radius: 10px;
+    border: 1px solid #88888825;
+    padding: 32px;
+}
+.secure_card1 h6{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #93C5FD;
+    padding-bottom: 8px;
+}
+.secure_card1 h3{
+    font-family: "Inter", sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 4px;
+}
+
+
+.secure_card1 p{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 31px;
+}
+.secure_card1 ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    position: relative;
+}
+.secure_card1 ul li::after{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -13px;
+    background: #1D4ED8;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+.secure_card1 button{
+    padding: 11px 126px;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+     font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #2563EB;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.secure_card1 button:hover{
+    transition: all 1s ease;
+    background: transparent;
+    color: #2563EB;
+}
+
+.secure_card2{
+    width: 370px;
+    background: #F8F9FB;
+    border-radius: 10px;
+    border: 1px solid #88888825;
+    padding: 32px;
+}
+.secure_card2 h6{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+    padding-bottom: 8px;
+}
+.secure_card2 h3{
+    font-family: "Inter", sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+    padding-bottom: 4px;
+}
+
+
+.secure_card2 p{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #888888;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 31px;
+}
+.secure_card2 ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    padding-bottom: 10px;
+    position: relative;
+}
+.secure_card2 ul li::after{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -13px;
+    background: #1D4ED8;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+.secure_card2 button{
+    padding: 11px 113px;
+    border: 2px solid #0D1B2A;
+    border-radius: 8px;
+     font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0D1B2A;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* secure part end */
