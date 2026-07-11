@@ -209,6 +209,7 @@ img {
     display: flex; 
     align-items: center;
     gap: 0 24px;
+    margin-bottom: 80px;
 }
 .secure_card{
     width: 370px;
@@ -406,3 +407,95 @@ img {
 }
 
 /* secure part end */
+
+/* faq part start */
+
+#faq-section {
+  background: #F8F9FB;
+  padding: 80px 0;
+}
+ 
+.faq-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+ 
+.faq-header h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0 0 14px;
+  color: #14142b;
+}
+ 
+.faq-header p {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0;
+}
+ 
+.faq_list {
+  border-top: 1px solid #e2e4e9;
+  width: 700px;
+  margin: 0 auto;
+}
+ 
+.faq-item {
+  border-bottom: 1px solid #e2e4e9;
+  padding: 20px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.faq-item span {
+  font-size: 17px;
+  font-weight: 700;
+  color: #14142b;
+}
+ 
+.faq-item .plus {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-left: 16px;
+  position: relative;
+}
+ 
+.faq-item .plus::before,
+.faq-item .plus::after {
+  content: "";
+  position: absolute;
+  background: #9a9ca3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ 
+.faq-item .plus::before {
+  width: 14px;
+  height: 2px;
+}
+ 
+.faq-item .plus::after {
+  width: 2px;
+  height: 14px;
+}
+ 
+.faq-cta {
+  text-align: center;
+  margin-top: 40px;
+}
+ 
+.faq-cta button {
+  background: #3d4fe0;
+  color: #ffffff;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", serif;
+  cursor: pointer;
+}
+/* faq part end */
+
