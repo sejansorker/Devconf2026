@@ -32,7 +32,9 @@ img {
 .nav_logo {
     width: 20%;
 }
-
+.nav_logo img{
+    cursor: pointer;
+}
 .nav_menu {
     width: 60%;
 }
@@ -73,7 +75,7 @@ img {
 /* banner part start */
 #banner {
     background: url(../images/banner.jpg) center/cover no-repeat;
-    padding: 136px 0 79px;
+    padding: 136px 0 129px;
     position: relative;
 }
 
@@ -98,14 +100,14 @@ img {
     font-size: 22px;
     font-weight: normal;
     padding: 0 80px;
-    margin-bottom: 274px;
+    margin-bottom: 74px;
 }
 
 .banner_main button {
     font-family: "Inter", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
-    padding: 25px 62px;
+    padding: 20px 42px;
     background: #1D4ED8;
     border-radius: 10px;
     border: none;
