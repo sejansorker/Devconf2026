@@ -66,6 +66,7 @@ img {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -109,6 +110,7 @@ img {
     border-radius: 10px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .ovarly {
@@ -171,6 +173,7 @@ img {
     color: #1D4ED8;
 
 }
+
 .aiml_padding p {
     font-family: "Inter", sans-serif;
     font-size: 14px;
@@ -205,27 +208,31 @@ img {
     text-align: center;
     padding-bottom: 48px;
 }
-.secure_head{
-    display: flex; 
+
+.secure_head {
+    display: flex;
     align-items: center;
     gap: 0 24px;
     margin-bottom: 80px;
 }
-.secure_card{
+
+.secure_card {
     width: 370px;
     background: #F8F9FB;
     border-radius: 10px;
     border: 1px solid #88888825;
     padding: 32px;
 }
-.secure_card h6{
+
+.secure_card h6 {
     font-family: "Inter", sans-serif;
     font-size: 13px;
     font-weight: 600;
     color: #888888;
     padding-bottom: 8px;
 }
-.secure_card h3{
+
+.secure_card h3 {
     font-family: "Inter", sans-serif;
     font-size: 44px;
     font-weight: bold;
@@ -234,7 +241,7 @@ img {
 }
 
 
-.secure_card p{
+.secure_card p {
     font-family: "Inter", sans-serif;
     font-size: 13px;
     font-weight: normal;
@@ -243,7 +250,8 @@ img {
     border-bottom: 1px solid #E5E7EB;
     margin-bottom: 31px;
 }
-.secure_card ul li{
+
+.secure_card ul li {
     font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -251,7 +259,8 @@ img {
     padding-bottom: 10px;
     position: relative;
 }
-.secure_card ul li::after{
+
+.secure_card ul li::after {
     content: "";
     position: absolute;
     top: 6px;
@@ -261,11 +270,12 @@ img {
     width: 5px;
     border-radius: 50%;
 }
-.secure_card button{
+
+.secure_card button {
     padding: 11px 106px;
     border: 2px solid #2563EB;
     border-radius: 8px;
-     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: 600;
     color: #2563EB;
@@ -273,23 +283,23 @@ img {
     cursor: pointer;
     margin-top: 20px;
 }
-
-
-.secure_card1{
+.secure_card1 {
     width: 370px;
     background: #0D1B2A;
     border-radius: 10px;
     border: 1px solid #88888825;
     padding: 32px;
 }
-.secure_card1 h6{
+
+.secure_card1 h6 {
     font-family: "Inter", sans-serif;
     font-size: 13px;
     font-weight: 600;
     color: #93C5FD;
     padding-bottom: 8px;
 }
-.secure_card1 h3{
+
+.secure_card1 h3 {
     font-family: "Inter", sans-serif;
     font-size: 44px;
     font-weight: bold;
@@ -298,7 +308,7 @@ img {
 }
 
 
-.secure_card1 p{
+.secure_card1 p {
     font-family: "Inter", sans-serif;
     font-size: 13px;
     font-weight: normal;
@@ -307,7 +317,8 @@ img {
     border-bottom: 1px solid #E5E7EB;
     margin-bottom: 31px;
 }
-.secure_card1 ul li{
+
+.secure_card1 ul li {
     font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -315,7 +326,8 @@ img {
     padding-bottom: 10px;
     position: relative;
 }
-.secure_card1 ul li::after{
+
+.secure_card1 ul li::after {
     content: "";
     position: absolute;
     top: 6px;
@@ -325,11 +337,12 @@ img {
     width: 5px;
     border-radius: 50%;
 }
-.secure_card1 button{
+
+.secure_card1 button {
     padding: 11px 126px;
     border: 2px solid #2563EB;
     border-radius: 8px;
-     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: 600;
     color: #fff;
@@ -337,27 +350,30 @@ img {
     cursor: pointer;
     margin-top: 20px;
 }
-.secure_card1 button:hover{
+
+.secure_card1 button:hover {
     transition: all 1s ease;
     background: transparent;
     color: #2563EB;
 }
 
-.secure_card2{
+.secure_card2 {
     width: 370px;
     background: #F8F9FB;
     border-radius: 10px;
     border: 1px solid #88888825;
     padding: 32px;
 }
-.secure_card2 h6{
+
+.secure_card2 h6 {
     font-family: "Inter", sans-serif;
     font-size: 13px;
     font-weight: 600;
     color: #888888;
     padding-bottom: 8px;
 }
-.secure_card2 h3{
+
+.secure_card2 h3 {
     font-family: "Inter", sans-serif;
     font-size: 44px;
     font-weight: bold;
@@ -366,7 +382,7 @@ img {
 }
 
 
-.secure_card2 p{
+.secure_card2 p {
     font-family: "Inter", sans-serif;
     font-size: 13px;
     font-weight: normal;
@@ -375,7 +391,8 @@ img {
     border-bottom: 1px solid #E5E7EB;
     margin-bottom: 31px;
 }
-.secure_card2 ul li{
+
+.secure_card2 ul li {
     font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -383,7 +400,8 @@ img {
     padding-bottom: 10px;
     position: relative;
 }
-.secure_card2 ul li::after{
+
+.secure_card2 ul li::after {
     content: "";
     position: absolute;
     top: 6px;
@@ -393,11 +411,12 @@ img {
     width: 5px;
     border-radius: 50%;
 }
-.secure_card2 button{
+
+.secure_card2 button {
     padding: 11px 113px;
     border: 2px solid #0D1B2A;
     border-radius: 8px;
-     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: 600;
     color: #0D1B2A;
@@ -411,91 +430,223 @@ img {
 /* faq part start */
 
 #faq-section {
-  background: #F8F9FB;
-  padding: 80px 0;
+    background: #F8F9FB;
+    padding: 80px 0;
 }
- 
-.faq-header {
-  text-align: center;
-  margin-bottom: 48px;
+
+.faq_header {
+    text-align: center;
+    margin-bottom: 48px;
 }
- 
-.faq-header h2 {
-  font-size: 34px;
-  font-weight: 700;
-  margin: 0 0 14px;
-  color: #14142b;
+
+.faq_header h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 14px;
+    color: #14142b;
 }
- 
-.faq-header p {
-  font-size: 16px;
-  color: #6b7280;
-  margin: 0;
+
+.faq_header p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #6b7280;
+    margin: 0;
 }
- 
+
 .faq_list {
-  border-top: 1px solid #e2e4e9;
-  width: 700px;
-  margin: 0 auto;
+    border-top: 1px solid #e2e4e9;
+    width: 700px;
+    margin: 0 auto;
 }
- 
-.faq-item {
-  border-bottom: 1px solid #e2e4e9;
-  padding: 20px 4px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+.faq_item {
+    border-bottom: 1px solid #e2e4e9;
+    padding: 20px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
- 
-.faq-item span {
-  font-size: 17px;
-  font-weight: 700;
-  color: #14142b;
+
+.faq_item span {
+    font-size: 17px;
+    font-weight: 700;
+    color: #14142b;
 }
- 
-.faq-item .plus {
-  flex-shrink: 0;
-  width: 18px;
-  height: 18px;
-  margin-left: 16px;
-  position: relative;
+
+.faq_item .plus {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-left: 16px;
+    position: relative;
 }
- 
-.faq-item .plus::before,
-.faq-item .plus::after {
-  content: "";
-  position: absolute;
-  background: #9a9ca3;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.faq_item .plus::before,
+.faq_item .plus::after {
+    content: "";
+    position: absolute;
+    background: #9a9ca3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
- 
-.faq-item .plus::before {
-  width: 14px;
-  height: 2px;
+
+.faq_item .plus::before {
+    width: 14px;
+    height: 2px;
 }
- 
-.faq-item .plus::after {
-  width: 2px;
-  height: 14px;
+
+.faq_item .plus::after {
+    width: 2px;
+    height: 14px;
 }
- 
-.faq-cta {
-  text-align: center;
-  margin-top: 40px;
+
+.faq_cta {
+    text-align: center;
+    margin-top: 40px;
 }
- 
-.faq-cta button {
-  background: #3d4fe0;
-  color: #ffffff;
-  border: none;
-  padding: 15px 32px;
-  border-radius: 10px;
-  font-size: 15px;
-  font-weight: 700;
-  font-family: Georgia, "Times New Roman", serif;
-  cursor: pointer;
+
+.faq_cta button {
+    background: #3d4fe0;
+    color: #ffffff;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
 }
+
 /* faq part end */
 
+/* footer part start */
+footer{
+    background: #0D1B2A;
+    padding: 50px 0 30px;
+}
+.foot_main{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #8888885c;
+    padding-bottom: 50px;
+}
+.foot_l{
+    width: 30%;
+}
+.foot_ll{
+    width: 20%;
+     
+}
+.foot_ll h5{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.foot_ll ul li a{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.foot_rr h5{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.foot_rr ul li a{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.foot_rr{
+    width: 20%;
+}
+.foot_r{
+    width: 30%;
+}
+.foot_r h5{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.foot_r p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 50px 20px 0;
+}
+.foot_r .foot_input input{
+    outline: none;
+    border: none;
+    padding: 11px 0px 11px 10px;
+    width: 300px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.foot_r .foot_input button{
+    padding: 12px 24px;
+    background: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.foot_l p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px 70px 15px 0;
+}
+.foot_l .icon {
+display: flex;
+gap: 0 10px;
+}
+.foot_l .icon i{
+    padding: 15px 13px;
+    background: #2563EB;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+.foot_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.foot_head ul{
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+}
+.foot_head ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff9a;
+}
+.foot_head p{
+ font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+   color: #ffffff9a;
+}
+/* footer part end */
